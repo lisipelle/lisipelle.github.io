@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+ .fb-secction{
+    min-height: 500px;
+} 
+
+.fb-bgoscuro {
+    background-color: #212121;
+    color: #ffffff;
+}
+.fb-bglight{
+    background-color: white;
+    color: #504747;
+}
+
+.titulo{
+    font-family: 'Titan One';
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* .cuadrado{
+    background-color:#ffffff;
+    height:200px;
+    display:grid;
+    align-items:center;
+} */
+
+
+.fondo-inicio{
+    background: transparent url('img/cara5.jpg') no-repeat top center;
+    background-size: 100%;
+    height: 500px;
+    background-size: cover; 
+}
+
+.fa-camera-retro{
+    font-size: 5rem;
+    color:#56BED3;
+    padding: 10px;
+}
+
+nav{
+    background-color: #1C2331;
+}
+
+.cuadrovideo{
+    position:relative;
+    overflow: hidden; /* Ajustamos el video al container */
+    /* z-index: 1; */
+}
+.cuadrovideo video{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180%;
+    object-fit: cover;
+    
+    /* opacity: 0.5;  */
+    
+}
+.mititulo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180%;
+    object-fit: cover;
+    color: black;
+    
+    z-index: 1;
+}
+
+.tarjetas{
+    color:#000000;
+    border-color: #000000;
+    background-color: #DCD9D4;
+    box-shadow: 2px 2px 5px #848484;
+}
+.carousel{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.imgaleria img{
+    width: 200px;
+    min-height: 120px;
+    margin: 10px;
+    -webkit-transition: all .9s ease;
+    -moz-transition: all .9s ease;
+   -o-transition: all .9s ease;
+    -ms-transition: all .9s ease;
+ }
+ .imgaleria:hover img{
+    -webkit-transform: scale(1.5);
+    -moz--transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+ } 
+
+.fb-seccionplus{
+    min-height: 630px;
+}
+
